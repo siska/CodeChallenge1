@@ -14,6 +14,7 @@
 		12304DE819DDD6D700698101 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12304DE719DDD6D700698101 /* Images.xcassets */; };
 		12304DEB19DDD6D700698101 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12304DE919DDD6D700698101 /* LaunchScreen.xib */; };
 		12304DF719DDD6D700698101 /* CodeChallenge1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12304DF619DDD6D700698101 /* CodeChallenge1Tests.m */; };
+		12304E0519DDE5BD00698101 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12304E0419DDE5BD00698101 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		12304DF019DDD6D700698101 /* CodeChallenge1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeChallenge1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12304DF519DDD6D700698101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12304DF619DDD6D700698101 /* CodeChallenge1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeChallenge1Tests.m; sourceTree = "<group>"; };
+		12304E0319DDE5BD00698101 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebViewController.h; path = ../WebViewController.h; sourceTree = "<group>"; };
+		12304E0419DDE5BD00698101 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebViewController.m; path = ../WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				12304DDF19DDD6D700698101 /* AppDelegate.m */,
 				12304DE119DDD6D700698101 /* ViewController.h */,
 				12304DE219DDD6D700698101 /* ViewController.m */,
+				12304E0319DDE5BD00698101 /* WebViewController.h */,
+				12304E0419DDE5BD00698101 /* WebViewController.m */,
 				12304DE419DDD6D700698101 /* Main.storyboard */,
 				12304DE719DDD6D700698101 /* Images.xcassets */,
 				12304DE919DDD6D700698101 /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				12304DE319DDD6D700698101 /* ViewController.m in Sources */,
 				12304DE019DDD6D700698101 /* AppDelegate.m in Sources */,
 				12304DDD19DDD6D700698101 /* main.m in Sources */,
+				12304E0519DDE5BD00698101 /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
